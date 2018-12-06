@@ -31,6 +31,7 @@ document.onkeyup = function(event) {
         computerChoice = letters[randomIndex];
         console.log(computerChoice);
       }
+
       // compares the randomly selected computer choice and user choice
       if (computerChoice === userChoice) {
         console.log("You won!");
@@ -43,7 +44,9 @@ document.onkeyup = function(event) {
         console.log(computerChoice);
         triesCount = 10;
         document.getElementById("triesCount").innerHTML = 10;
-      } else {
+      } 
+      
+      else {
         console.log("Guess again!");
         document.getElementById("triesCount").innerHTML = triesCount--;
         playerGuesses.push(userChoice);
