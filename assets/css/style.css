@@ -1,3 +1,9 @@
 body{
     background-image: url(../images/background.jpeg);
+    color: white;
+    text-align: center;
+    margin-top: 12%;
+    margin-right: 4%;
+    background-size: cover; 
+    ;
 }
